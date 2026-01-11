@@ -257,7 +257,9 @@ Apesar das limitações do dataset (como tamanho amostral e ausência de causali
 ## 🔧 6. Tecnologias Utilizadas
 
 PostgreSQL 18
+
 pgAdmin
+
 Power BI
 
 ## 📜 7. Licença
