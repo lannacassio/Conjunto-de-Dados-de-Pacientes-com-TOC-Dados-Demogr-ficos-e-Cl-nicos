@@ -9,11 +9,11 @@ Objetivo: Explorar dados sociodemográficos e clínicos de pacientes diagnostica
 
 O dataset contém informações anonimizadas de pacientes com TOC, incluindo:
 
-Dados demográficos (gênero, etnia, escolaridade, estado civil)
+  . Dados demográficos (gênero, etnia, escolaridade, estado civil)
 
-Dados clínicos (tipo de obsessão/compulsão, pontuação Y-BOCS, comorbidades)
+  . Dados clínicos (tipo de obsessão/compulsão, pontuação Y-BOCS, comorbidades)
 
-Informações temporais (data de diagnóstico)
+  . Informações temporais (data de diagnóstico)
 
 Essas variáveis permitem realizar análises exploratórias tanto descritivas quanto relacionais, envolvendo grupos e características clínicas.
 
