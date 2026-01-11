@@ -31,123 +31,220 @@ A seguir, apresento as 10 perguntas e os resultados obtidos durante a análise:
 
  1. Contagem e porcentagem de mulheres versus homens com TOC e pontuação média de obsessão por gênero
 
- Foram contabilizados os pacientes por gênero
+  Foram contabilizados os pacientes por gênero
+ 
+  Calculou-se a porcentagem relativa ao total
+ 
+  Comparou-se a pontuação Y-BOCS média entre gêneros
 
- Calculou-se a porcentagem relativa ao total
+</head>
+<body>
+       <table>
+              <tr>
+                     <td><img src= "https://github.com/lannacassio/Conjunto-de-Dados-de-Pacientes-com-TOC-Dados-Demogr-ficos-e-Cl-nicos/blob/main/Imagens/Genero.png"></td>            
+              </tr>
+       </table>
+</body>
+</html>
+ 
+  **Insights** :
+ 
+  É possível observar se existe predominância de TOC em algum gênero
+ 
+  Também permite avaliar possíveis diferenças na gravidade clínico-obsessiva entre homens e mulheres
 
- Comparou-se a pontuação Y-BOCS média entre gêneros
-
- Insights:
-
- É possível observar se existe predominância de TOC em algum gênero
-
- Também permite avaliar possíveis diferenças na gravidade clínico-obsessiva entre homens e mulheres
 
  2. Número de pacientes por etnia e suas respectivas pontuações médias de obsessão
 
- Agrupou-se por etnia:
+  Agrupou-se por etnia:
+ 
+  count() → número de pacientes
+ 
+  mean() → média de Y-BOCS
 
- count() → número de pacientes
+</head>
+<body>
+       <table>
+              <tr>
+                     <td><img src= "https://github.com/lannacassio/Conjunto-de-Dados-de-Pacientes-com-TOC-Dados-Demogr-ficos-e-Cl-nicos/blob/main/Imagens/Etnia.png"></td>            
+              </tr>
+       </table>
+</body>
+</html>
 
- mean() → média de Y-BOCS
-
- Insights:
-
- Permite avaliar distribuição étnica no dataset
-
- Investiga se algum grupo apresenta escore significativamente maior de obsessão
+ 
+  **Insights** :
+ 
+  Permite avaliar distribuição étnica no dataset
+ 
+  Investiga se algum grupo apresenta escore significativamente maior de obsessão
 
  3. Número de pessoas diagnosticadas com TOC por mês
 
- A coluna de data foi convertida para formato datetime
+  A coluna de data foi convertida para formato datetime
+ 
+  Extraído o mês de diagnóstico
+ 
+  Gerado um agrupamento mensal
 
- Extraído o mês de diagnóstico
+</head>
+<body>
+       <table>
+              <tr>
+                     <td><img src= "https://github.com/lannacassio/Conjunto-de-Dados-de-Pacientes-com-TOC-Dados-Demogr-ficos-e-Cl-nicos/blob/main/Imagens/periodo.png"></td>            
+              </tr>
+       </table>
+</body>
+</html>
 
- Gerado um agrupamento mensal
-
- Insights:
-
- Identifica padrões temporais (picos de diagnóstico, sazonalidade etc.)
+  **Insights** :
+ 
+  Identifica padrões temporais (picos de diagnóstico, sazonalidade etc.)
 
  4. Qual é o tipo de obsessão mais comum e sua respectiva pontuação média de obsessão?
 
- Agrupado por tipo de obsessão
+  Agrupado por tipo de obsessão
+ 
+  Ordenado pela contagem para achar o tipo mais frequente
+ 
+  Calculada a média de Y-BOCS para esse tipo
 
- Ordenado pela contagem para achar o tipo mais frequente
-
- Calculada a média de Y-BOCS para esse tipo
-
- Insights:
-
- Identifica o perfil clínico mais recorrente
-
- Mostra se o tipo mais comum também é o mais severo
+</head>
+<body>
+       <table>
+              <tr>
+                     <td><img src= "https://github.com/lannacassio/Conjunto-de-Dados-de-Pacientes-com-TOC-Dados-Demogr-ficos-e-Cl-nicos/blob/main/Imagens/tipo_obsessao.png"></td>            
+              </tr>
+       </table>
+</body>
+</html>
+ 
+  **Insights** :
+ 
+  Identifica o perfil clínico mais recorrente
+ 
+  Mostra se o tipo mais comum também é o mais severo
 
  5. Qual é o tipo de compulsão mais comum e sua respectiva pontuação média de obsessão?
 
- Mesmo processo da questão anterior, porém para compulsões.
-
- Insights:
-
- Permite analisar possíveis correlações entre tipos de compulsão e gravidade
+  Mesmo processo da questão anterior, porém para compulsões.
+  
+</head>
+<body>
+       <table>
+              <tr>
+                     <td><img src= "https://github.com/lannacassio/Conjunto-de-Dados-de-Pacientes-com-TOC-Dados-Demogr-ficos-e-Cl-nicos/blob/main/Imagens/tipo_compulsao.png"></td>            
+              </tr>
+       </table>
+</body>
+</html>
+ 
+ **Insights** :
+ 
+  Permite analisar possíveis correlações entre tipos de compulsão e gravidade
 
  6. Qual a porcentagem de pacientes que enfrentam TOC junto com Depressão, Ansiedade, ou ambos?
 
- Criou-se categorias:
-
- Somente Depressão
-
- Somente Ansiedade
-
- Depressão + Ansiedade
-
- Sem comorbidades
-
- Computou-se a porcentagem relativa ao total.
-
- Insights:
+  Criou-se categorias:
  
- Altas taxas de comorbidade são esperadas em TOC
+  Somente Depressão
  
- Esses dados ajudam a entender o perfil clínico associado
+  Somente Ansiedade
  
+  Depressão + Ansiedade
+ 
+  Sem comorbidades
+ 
+  Computou-se a porcentagem relativa ao total.
+
+</head>
+<body>
+       <table>
+              <tr>
+                     <td><img src= "https://github.com/lannacassio/Conjunto-de-Dados-de-Pacientes-com-TOC-Dados-Demogr-ficos-e-Cl-nicos/blob/main/Imagens/comorbidade.png"></td>            
+              </tr>
+       </table>
+</body>
+</html>
+ 
+  **Insights** :
+  
+  Altas taxas de comorbidade são esperadas em TOC
+  
+  Esses dados ajudam a entender o perfil clínico associado
+  
  7. Existe um tipo de obsessão dominante para cada nível de educação?
  
- Agrupou-se por education_level e encontrou-se o tipo de obsessão com maior contagem dentro de cada grupo.
- 
- Insights:
- 
- Investiga se escolaridade influencia o tipo de manifestação obsessiva
- 
+  Agrupou-se por education_level e encontrou-se o tipo de obsessão com maior contagem dentro de cada grupo.
+
+    </head>
+<body>
+       <table>
+              <tr>
+                     <td><img src= "https://github.com/lannacassio/Conjunto-de-Dados-de-Pacientes-com-TOC-Dados-Demogr-ficos-e-Cl-nicos/blob/main/Imagens/Educacao.png"></td>            
+              </tr>
+       </table>
+</body>
+</html>
+  
+  **Insights** :
+  
+  Investiga se escolaridade influencia o tipo de manifestação obsessiva
+  
  8. Pacientes casados apresentam pontuações Y-BOCS menores do que solteiros ou divorciados?
  
- Comparou-se a média de Y-BOCS entre grupos:
- 
- Casados
- 
- Solteiros
- 
- Divorciados
- 
- Insights:
- 
- Sugere se apoio social/relacional pode estar relacionado a menor gravidade dos sintomas
+  Comparou-se a média de Y-BOCS entre grupos: Casados, Solteiros, Divorciados
+
+    </head>
+    <body>
+       <table>
+              <tr>
+                     <td><img src= "https://github.com/lannacassio/Conjunto-de-Dados-de-Pacientes-com-TOC-Dados-Demogr-ficos-e-Cl-nicos/blob/main/Imagens/estado_civil.png"></td>            
+              </tr>
+       </table>
+ </body>
+ </html>
+  
+  **Insights** :
+  
+  Sugere se apoio social/relacional pode estar relacionado a menor gravidade dos sintomas
  
  9. Pessoas com obsessões “Harm-related” possuem maior incidência de Depressão do que aquelas com “Symmetry”?
  
- Filtrou-se o dataset para cada tipo e calculou-se a porcentagem com depressão.
- 
- Insights:
- 
- Avalia a relação entre conteúdo obsessivo e comorbidade depressiva
- 
+  Filtrou-se o dataset para cada tipo e calculou-se a porcentagem com depressão.
+
+    </head>
+<body>
+       <table>
+              <tr>
+                     <td><img src= "https://github.com/lannacassio/Conjunto-de-Dados-de-Pacientes-com-TOC-Dados-Demogr-ficos-e-Cl-nicos/blob/main/Imagens/depressao.png"></td>            
+              </tr>
+       </table>
+</body>
+</html>
+
+  **Insights** :
+  
+  Avalia a relação entre conteúdo obsessivo e comorbidade depressiva
+  
  10. Qual é a combinação de Gênero + Estado Civil com a maior pontuação média de Y-BOCS?
  
- Foi criada uma coluna gender_marital_status e calculada a média de Y-BOCS por categoria.
- 
- Insights:
- 
- Ajuda a identificar subgrupos de maior risco clínico
+  Foi criada uma coluna gender_marital_status e calculada a média de Y-BOCS por categoria.
+
+    </head>
+<body>
+       <table>
+              <tr>
+                     <td><img src= "https://github.com/lannacassio/Conjunto-de-Dados-de-Pacientes-com-TOC-Dados-Demogr-ficos-e-Cl-nicos/blob/main/Imagens/genero_estado_civil.png"></td>            
+              </tr>
+       </table>
+</body>
+</html>
+
+  
+  **Insights** :
+  
+  Ajuda a identificar subgrupos de maior risco clínico
 
 ## 📈 4. Visualizações
 
