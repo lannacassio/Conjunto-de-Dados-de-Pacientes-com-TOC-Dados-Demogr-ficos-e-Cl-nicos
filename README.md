@@ -125,7 +125,8 @@ A seguir, apresento as 10 perguntas e os resultados obtidos durante a análise:
  
   **Insights** :
   
-   * Permite analisar possíveis correlações entre tipos de compulsão e gravidade
+    * Permite analisar possíveis correlações entre tipos de compulsão e gravidade.
+    
 
 6. Qual a porcentagem de pacientes que enfrentam TOC junto com Depressão, Ansiedade, ou ambos?
 
