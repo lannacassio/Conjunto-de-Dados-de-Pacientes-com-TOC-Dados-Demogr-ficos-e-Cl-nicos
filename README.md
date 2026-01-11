@@ -2,6 +2,10 @@
 
 Dataset: [Kaggle](https://www.kaggle.com/datasets/ohinhaque/ocd-patient-dataset-demographics-and-clinical-data)
 
+Dashboard: [Power BI](https://github.com/lannacassio/Conjunto-de-Dados-de-Pacientes-com-TOC-Dados-Demogr-ficos-e-Cl-nicos/blob/main/Arquivo%20Power%20BI/Dashboard_toc.pbix)
+
+Análise: [SQL](https://github.com/lannacassio/Conjunto-de-Dados-de-Pacientes-com-TOC-Dados-Demogr-ficos-e-Cl-nicos/blob/main/Arquivos%20SQL/perguntas_negocio.sql)
+
 Tema: Transtorno Obsessivo-Compulsivo (TOC – OCD)
 Objetivo: Explorar dados sociodemográficos e clínicos de pacientes diagnosticados com TOC e responder a questões analíticas relacionadas a gênero, etnia, comorbidades, tipos de obsessão/compulsão, entre outros fatores.
 
